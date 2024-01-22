@@ -1,6 +1,7 @@
 # To-Do-List
 
-A console based application to help keep track of tasks. You are able to add, delete, complete tasks.
+## Description: 
+A console-based application designed to assist in task management. With this application, you can easily add, delete, and complete tasks, keeping track of your progress and staying organized. 
 
 ## Getting Started
 
