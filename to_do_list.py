@@ -19,9 +19,12 @@ def complete_task(tasks, task_id):
     else:
         print(f"Task {task_id} not found.")
 
-def show_tasks(tasks):
+def display_tasks(tasks):
     for task_id, task_info in tasks.items():
         print(f"ID: {task_id}, Description: {task_info['description']}, Completed: {task_info['completed']}")
+
+def show_tasks(tasks):
+    display_tasks(tasks)
 
 def main():
     tasks = {}
