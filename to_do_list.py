@@ -1,9 +1,7 @@
 def add_task(tasks, description):
-    task_id = 1
-    while task_id in tasks:
-    task_id += 1
+    task_id = len(tasks) + 1
     tasks[task_id] = {'description': description, 'completed': False}
-    print(f"Task added with ID: {task_id}"
+    print(f"Task added with ID: {task_id}")
 
 def delete_task(tasks, task_id):
     if task_id in tasks:
