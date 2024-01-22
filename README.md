@@ -1,8 +1,5 @@
 # To-Do-List
 
-## Description: 
-A console-based application designed to assist in task management. With this application, you can easily add, delete, and complete tasks, keeping track of your progress and staying organized. 
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
