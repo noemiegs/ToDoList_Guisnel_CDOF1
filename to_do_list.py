@@ -1,7 +1,7 @@
 def add_task(tasks, description):
     task_id = 1
     while task_id in tasks:
-    task_id += 1
+        task_id += 1
     tasks[task_id] = {'description': description, 'completed': False}
     print(f"Task added with ID: {task_id}"
 
